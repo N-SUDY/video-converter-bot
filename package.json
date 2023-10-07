@@ -1,0 +1,26 @@
+{
+  "name": "videoconverterbot",
+  "version": "1.0.0",
+  "description": "This bot convert your video from certain extension to others.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^2.7.0",
+    "telegraf": "^4.14.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10",
+    "@types/fluent-ffmpeg": "^2.1.22",
+    "@types/node": "^20.8.3",
+    "@types/node-fetch": "^2.6.6"
+  }
+}
