@@ -14,10 +14,15 @@ npm start
 The .env file must contain the following variables:<br><br>
 
 ```
-TELEGRAM_BOT_TOKEN = token
+TELEGRAM_BOT_TOKEN=token
 ```
 
-<b>TELEGRAM_BOT_TOKEN</b> - telegram bot token that was provided by official telegram bot (https://t.me/BotFather)<br>
+<b>TELEGRAM_BOT_TOKEN</b> - telegram bot token that was provided by official telegram bot (https://t.me/BotFather)<br><br>
+Also if you want to use docker you can enter your token in the Dockerfile:<br><br>
+
+```dockerfile
+ENV TELEGRAM_BOT_TOKEN=token
+```
 
 <h2>Available video extensions</h2>
 The bot accepts the following video extensions:<br><br>
